@@ -1,0 +1,41 @@
+.icon {
+  height: 1.5rem;
+  fill: blue;
+  color: red;
+}
+
+.icon__container {
+  background-color: rgb(64, 61, 61);
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+
+.cover {
+  background-color: rgb(64, 61, 61);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+
+  &__img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 4px;
+  }
+
+  &__play {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.header {
+  background-color: rgb(64, 61, 61);
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  color: white;
+}
