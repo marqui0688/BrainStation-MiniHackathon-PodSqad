@@ -1,12 +1,20 @@
-import "./App.css";
+import "./App.scss";
 import Footer from "../src/components/Footer";
+
 import PodcastList from "./components/PodcastList";
+
+import Header from "../src/components/Header";
+
 
 function App() {
   return (
     <>
-      <Footer />
+    
+
+      <Header />  
       <PodcastList />
+      <Footer />
+
     </>
   );
 }
