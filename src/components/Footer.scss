@@ -5,9 +5,13 @@
 }
 
 .footer {
-  height: 3rem;
+  height: 4rem;
   width: 100%;
   background-color: #0e0e0f;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
   &__link-container {
     width: 100%;
     display: flex;
@@ -34,14 +38,19 @@
   }
 }
 .zoom {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   border-radius: 75px;
   cursor: pointer;
   background-color: rgb(185, 50, 176);
   text-align: center;
   transition: transform 0.2s;
-  z-index: -100;
+  z-index: 100;
+  background: radial-gradient(
+    circle at 100px 100px,
+    rgb(185, 50, 176),
+    #820fe5
+  );
 }
 
 .zoom:hover {
